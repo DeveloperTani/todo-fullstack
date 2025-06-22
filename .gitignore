@@ -1,0 +1,115 @@
+# === General OS / Editor ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+
+# === Logs ===
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# === Runtime / Build ===
+bin/
+obj/
+dist/
+build/
+out/
+*.pid
+*.seed
+*.coverage
+*.coveragexml
+*.lcov
+
+# === User / Env ===
+.env
+.env.*
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# === Node / React ===
+node_modules/
+.vite/
+.next/
+.nuxt/
+.cache/
+.vscode/*
+!.vscode/extensions.json
+
+# === .NET / Visual Studio ===
+.vs/
+_ReSharper*/
+*.DotSettings.user
+*.nupkg
+*.snupkg
+*.dbmdl
+*.pfx
+*.publishsettings
+*.csproj.user
+*.sql
+*.bak
+*.mdf
+*.ldf
+
+# === MAUI / Xamarin ===
+*.apk
+*.aab
+*.apks
+*.xcuserstate
+*.xcworkspace
+*.xcodeproj
+*.ios/
+*.android/
+
+# === Test Output ===
+TestResults/
+coverage/
+*.testresult
+*.trx
+*.nunit.xml
+
+# === Build Artifacts ===
+artifacts/
+*.dll
+*.exe
+*.pdb
+*.dll.config
+
+# === Publish Artifacts ===
+publish/
+*.Publish.xml
+*.pubxml
+*.publishproj
+
+# === Others ===
+*.vspscc
+*.vssscc
+*.sqlproj.user
+*.dbproj.schemaview
+*.cache
+*.tlog
+*.bak
+*.old
+*.orig
+*.rej
+*.sqlite
+*.sqlite-journal
+.idea/
+*.iml
+
+# === Ignore SQLite files ===
+*.sqlite
+*.db
+*.db3
+
+# === Ignore Logs & Output folders ===
+logs/
+output/
+wwwroot/
+temp/
